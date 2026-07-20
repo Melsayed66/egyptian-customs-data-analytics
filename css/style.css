@@ -8,7 +8,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 90px;
 }
-header{
+
+header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -21,11 +22,11 @@ header{
     align-items: center;
     padding: 16px 40px;
     background-color: white;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     position: fixed;
-    top: 0  ;
+    top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     z-index: 1000;
 
 }
@@ -111,7 +112,7 @@ header{
     background-color: white;
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     animation: float 3s ease-in-out infinite;
     transition: 0.4s;
 }
@@ -144,14 +145,16 @@ header{
     cursor: pointer;
     transition: 0.3s;
 }
-.hero-image img:hover{
+
+.hero-image img:hover {
     transform: scale(1.05);
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
 
     background-color: darkblue;
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .hero-btn-outline {
@@ -163,50 +166,57 @@ header{
     cursor: pointer;
     transition: 0.3s;
 }
-.hero-btn-outline:hover{
+
+.hero-btn-outline:hover {
     background-color: blue;
     color: white;
     transform: translateY(-3px);
 }
+
 @keyframes float {
 
-    0%{
+    0% {
         transform: translateY(0);
     }
 
-    50%{
+    50% {
         transform: translateY(-15px);
     }
 
-    100%{
+    100% {
         transform: translateY(0);
     }
 }
-.stats{
+
+.stats {
     display: flex;
     justify-content: center;
     padding: 20px 20px 40px;
     background-color: #f8fafc;
     gap: 40px;
 }
-.stat-card{
+
+.stat-card {
     background: white;
     width: 280px;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
-.stat-card h3{
+
+.stat-card h3 {
     color: #64748b;
     margin-bottom: 15px;
 }
-.stat-card p{
+
+.stat-card p {
     font-size: 34px;
     font-weight: bold;
     color: #0f172a;
 }
-.stat-card:hover{
+
+.stat-card:hover {
     transform: translateY(-10px);
 }
